@@ -1,0 +1,24 @@
+@media screen and (max-width:767px){
+.main-sidebar{
+display:none;
+margin-right:0;
+}
+.content-wrapper,.main-footer{
+margin-right:0;
+}
+
+.coll{
+float:left;
+}
+
+.content-wrapper{
+padding-top:60px;
+}
+.contant{
+
+padding-right:0;
+margin-right:0;
+}
+
+
+}

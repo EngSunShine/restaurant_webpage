@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+    <title>تسجيل الدخول</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!--external css-->
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="assets/font-awesome/fonts/fontawesome-webfont.css" rel="stylesheet" />
+        
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style-responsive.css" rel="stylesheet">
+
+   
+  </head>
+
+  <body>
+
+      <!-- **********************************************************************************************************************************************************
+      MAIN CONTENT
+      *********************************************************************************************************************************************************** -->
+
+	  <div id="login-page">
+	  	<div class="container">
+	  	
+		      <form class="form-login" action="index.html">
+		        <h2 class="form-login-heading">الدخول الان</h2>
+		        <div class="login-wrap">
+		            <input type="text" class="form-control" placeholder="المستخدم" autofocus>
+		            <br>
+		            <input type="password" class="form-control" placeholder="كلمة السر">
+		            <label class="checkbox">
+		                <span class="pull-right">
+		                    <a data-toggle="modal" href="login.html#myModal"> <p>هل نست كلمة السر؟</p></a>
+		
+		                </span>
+		            </label>
+		            <button class="btn btn-theme btn-block" href="login1.html" type="submit"><i class="fa fa-lock"></i> دخول</button>
+		            <hr>
+		            
+		           
+		
+		        </div>
+		
+		          <!-- Modal -->
+		          <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade">
+		              <div class="modal-dialog">
+		                  <div class="modal-content">
+		                      <div class="modal-header">
+		                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		                          <h4 class="modal-title"> هل تريد ايجاد كلمة السر؟</h4>
+		                      </div>
+		                      <div class="modal-body">
+		                          <p>ادخل بريدك الالكتروني</p>
+		                          <input type="email" name="email" placeholder="name@domain.com" autocomplete="off" class="form-control placeholder-no-fix">
+		
+		                      </div>
+		                      <div class="modal-footer">
+		                          <button data-dismiss="modal"  class="btn btn-default" type="button">خروج </button>
+		                          <button class="btn btn-theme" type="button">ارسال</button>
+		                      </div>
+		                  </div>
+		              </div>
+		          </div>
+		          <!-- modal -->
+		
+		      </form>	  	
+	  	
+	  	</div>
+	  </div>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="assets/js/jquery.backstretch.min.js"></script>
+    <script>
+        $.backstretch("assets/img/login-bg.jpg", {speed: 500});
+    </script>
+
+
+  </body>
+</html>
